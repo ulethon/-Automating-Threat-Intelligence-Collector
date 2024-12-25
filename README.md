@@ -33,3 +33,6 @@ from threat_intelligence_collector.collector import ThreatCollector
 collector = ThreatCollector(api_key="YOUR_API_KEY")
 collector.collect_data()
 collector.generate_report(output="threat_report.csv")
+
+Credit:
+Developed by Pushpraj Thakre (ulethon)
